@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: cake-backend
+    buildCommand: npm install && npm rebuild bcrypt --build-from-source
+    startCommand: npm start
